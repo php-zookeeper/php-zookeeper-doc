@@ -1,4 +1,7 @@
 # PHP ZooKeeper Document
+
+[![Build Status](https://img.shields.io/travis/php-zookeeper/php-zookeeper-doc/master.svg?style=flat-square)](https://travis-ci.org/php-zookeeper/php-zookeeper-doc)
+
 Document for PHP ZooKeeper.
 
 Any form of contribution is welcomed, including typo-corrections, translations, examples, etc.
