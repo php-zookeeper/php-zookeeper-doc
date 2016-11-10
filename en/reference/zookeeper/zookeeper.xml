@@ -15,7 +15,7 @@
   <section xml:id="zookeeper.intro">
    &reftitle.intro;
    <para>
-    TODO:
+    Represents ZooKeeper session.
    </para>
   </section>
 <!-- }}} -->
@@ -97,7 +97,37 @@
      <varlistentry xml:id="zookeeper.constants.perm-read">
       <term><constant>Zookeeper::PERM_READ</constant></term>
       <listitem>
-       <para>TODO: </para>
+       <para>can read nodes value and list its children</para>
+      </listitem>
+     </varlistentry>
+     <varlistentry xml:id="zookeeper.constants.perm-write">
+      <term><constant>Zookeeper::PERM_WRITE</constant></term>
+      <listitem>
+       <para>can set the nodes value</para>
+      </listitem>
+     </varlistentry>
+     <varlistentry xml:id="zookeeper.constants.perm-create">
+      <term><constant>Zookeeper::PERM_CREATE</constant></term>
+      <listitem>
+       <para>can create children</para>
+      </listitem>
+     </varlistentry>
+     <varlistentry xml:id="zookeeper.constants.perm-delete">
+      <term><constant>Zookeeper::PERM_DELETE</constant></term>
+      <listitem>
+       <para>can delete children</para>
+      </listitem>
+     </varlistentry>
+     <varlistentry xml:id="zookeeper.constants.perm-admin">
+      <term><constant>Zookeeper::PERM_ADMIN</constant></term>
+      <listitem>
+       <para>can execute set_acl()</para>
+      </listitem>
+     </varlistentry>
+     <varlistentry xml:id="zookeeper.constants.perm-all">
+      <term><constant>Zookeeper::PERM_ALL</constant></term>
+      <listitem>
+       <para>all of the above flags ORd together</para>
       </listitem>
      </varlistentry>
 

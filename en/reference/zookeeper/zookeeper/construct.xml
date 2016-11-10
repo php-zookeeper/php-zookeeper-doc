@@ -4,16 +4,11 @@
 <refentry xml:id="zookeeper.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Zookeeper::__construct</refname>
-  <refpurpose>TODO:</refpurpose>
+  <refpurpose>create a handle to used communicate with zookeeper.</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
-<!-- IF OOP & PROCEDURAL.
-  <para>&style.oop;</para>
--->
-<!-- Use constructorsynopsis and destructorsynopsis rather than methodsynopsis for __construct and __destruct
-     There is no return <type> for the constructorsynopsis/destructorsynopsis -->
   <constructorsynopsis role="oop">
    <methodname>Zookeeper::__construct</methodname>
    <methodparam choice="opt"><type>string</type><parameter role="reference">host</parameter><initializer>''</initializer></methodparam>
@@ -21,7 +16,7 @@
    <methodparam choice="opt"><type>int</type><parameter role="reference">recv_timeout</parameter><initializer>10000</initializer></methodparam>
   </methodsynopsis>
   <para>
-   TODO:
+   This method creates a new handle and a zookeeper session that corresponds to that handle. Session establishment is asynchronous, meaning that the session should not be considered established until (and unless) an event of state ZOO_CONNECTED_STATE is received.
   </para>
  </refsect1>
 
@@ -32,7 +27,7 @@
     <term><parameter>host</parameter></term>
     <listitem>
      <para>
-      TODO:
+      comma separated host:port pairs, each corresponding to a zk server. e.g. "127.0.0.1:3000,127.0.0.1:3001,127.0.0.1:3002"
      </para>
     </listitem>
    </varlistentry>
@@ -40,7 +35,7 @@
     <term><parameter>watcher_cb</parameter></term>
     <listitem>
      <para>
-      TODO:
+      the global watcher callback function. When notifications are triggered this function will be invoked.
      </para>
     </listitem>
    </varlistentry>
@@ -48,7 +43,7 @@
     <term><parameter>recv_timeout</parameter></term>
     <listitem>
      <para>
-      TODO:
+      the timeout for this session, only valid if the connections is currently connected (ie. last watcher state is ZOO_CONNECTED_STATE).
      </para>
     </listitem>
    </varlistentry>
@@ -60,42 +55,6 @@
   <para>
    TODO:
   </para>
- </refsect1>
-
- <refsect1 role="examples">
-  &reftitle.examples;
-  <example xml:id="zookeeper.construct.example.basic">
-   <title><methodname>Zookeeper::__construct</methodname> example</title>
-   <para>
-    TODO:
-   </para>
-   <programlisting role="php">
-<![CDATA[
-<?php
-$zookeeper = new Zookeeper();
-?>
-]]>
-   </programlisting>
-   &example.outputs;
-   <screen>
-<![CDATA[
-Use the PEAR Coding standards
-Use a screen like we did below
-]]>
-   </screen>
-  </example>
- </refsect1>
-
- <refsect1 role="notes">
-  &reftitle.notes;
-  <caution>
-   <para>
-    TODO:
-   </para>
-  </caution>
-  &note.language-construct;
-  &note.not-bin-safe;
-  &note.registerglobals;
  </refsect1>
 
  <refsect1 role="seealso">
