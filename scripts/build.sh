@@ -3,7 +3,11 @@
 PHPDOC=${HOME}/phpdoc
 PHPDOC_URL=https://svn.php.net/repository/phpdoc/modules/doc-en
 
-svn co ${PHPDOC_URL} ${PHPDOC} || exit 1
+if [ ! -e ${PHPDOC} ]; then
+    svn co ${PHPDOC_URL} ${PHPDOC} || exit 1
+else
+    svn update ${PHPDOC} || exit 1
+fi
 
 cp -r en/ ${PHPDOC} || exit 1
 #cp -r zh/ ${PHPDOC} || exit 1
