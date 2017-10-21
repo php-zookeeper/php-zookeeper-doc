@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- $Revision: 295472 $ -->
+<!-- $Revision: 342988 $ -->
 <!--
   Do NOT translate this file
 -->
@@ -13,6 +13,7 @@
  <function name='zookeeper::exists' from='PECL zookeeper &gt;= 0.1.0'/>
  <function name='zookeeper::get' from='PECL zookeeper &gt;= 0.1.0'/>
  <function name='zookeeper::getacl' from='PECL zookeeper &gt;= 0.1.0'/>
+ <function name='zookeeper::getchildren' from='PECL zookeeper &gt;= 0.1.0'/>
  <function name='zookeeper::getclientid' from='PECL zookeeper &gt;= 0.1.0'/>
  <function name='zookeeper::getrecvtimeout' from='PECL zookeeper &gt;= 0.1.0'/>
  <function name='zookeeper::getstate' from='PECL zookeeper &gt;= 0.1.0'/>
