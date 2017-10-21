@@ -51,6 +51,11 @@
   <para>
    This method emits PHP error/warning when parameters count or types are wrong or fail to list children of a node.
   </para>
+  <caution>
+    <para>
+      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and it's derivatives.
+    </para>
+  </caution>
  </refsect1>
 
  <refsect1 role="examples">
@@ -90,6 +95,7 @@ array(1) {
   <simplelist>
    <member><methodname>Zookeeper::create</methodname></member>
    <member><methodname>Zookeeper::delete</methodname></member>
+   <member><classname>ZookeeperException</classname></member>
   </simplelist>
  </refsect1>
 

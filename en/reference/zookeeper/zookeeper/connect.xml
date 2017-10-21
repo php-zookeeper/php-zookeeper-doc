@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
+<!-- $Revision: 342988 $ -->
 
 <refentry xml:id="zookeeper.connect" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -57,12 +57,18 @@
   <para>
    This method emits PHP error/warning when parameters count or types are wrong or could not init instance.
   </para>
+  <caution>
+    <para>
+      Since version 0.3.0, this method emits <classname>ZookeeperException</classname> and it's derivatives.
+    </para>
+  </caution>
  </refsect1>
 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
    <member><methodname>Zookeeper::__construct</methodname></member>
+   <member><classname>ZookeeperException</classname></member>
   </simplelist>
  </refsect1>
 
