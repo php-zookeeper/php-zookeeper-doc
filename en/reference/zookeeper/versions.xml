@@ -32,6 +32,8 @@
  <function name='zookeeperauthenticationexception' from='PECL zookeeper &gt;= 0.3.0'/>
  <function name='zookeepersessionexception' from='PECL zookeeper &gt;= 0.3.0'/>
  <function name='zookeepernonodeexception' from='PECL zookeeper &gt;= 0.3.0'/>
+
+ <function name='zookeeper_dispatch' from='PECL zookeeper &gt;= 0.4.0'/>
 </versions>
 
 <!-- Keep this comment at the end of the file
