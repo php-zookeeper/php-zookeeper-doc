@@ -8,6 +8,7 @@
  <function name='zookeeper::addauth' from='PECL zookeeper &gt;= 0.1.0'/>
  <function name='zookeeper::connect' from='PECL zookeeper &gt;= 0.2.0'/>
  <function name='zookeeper::__construct' from='PECL zookeeper &gt;= 0.1.0'/>
+ <function name='zookeeper::close' from='PECL zookeeper &gt;= 0.5.0'/>
  <function name='zookeeper::create' from='PECL zookeeper &gt;= 0.1.0'/>
  <function name='zookeeper::delete' from='PECL zookeeper &gt;= 0.2.0'/>
  <function name='zookeeper::exists' from='PECL zookeeper &gt;= 0.1.0'/>
