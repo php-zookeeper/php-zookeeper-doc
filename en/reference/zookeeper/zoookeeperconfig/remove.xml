@@ -60,7 +60,7 @@
   <example xml:id="zookeeperconfig.remove.example.basic">
    <title><methodname>ZookeeperConfig::remove</methodname> example</title>
    <para>
-     Save value to node.
+     Remove members.
    </para>
    <programlisting role="php">
 <![CDATA[

@@ -60,7 +60,7 @@
   <example xml:id="zookeeperconfig.set.example.basic">
    <title><methodname>ZookeeperConfig::set</methodname> example</title>
    <para>
-     Save value to node.
+     Reconfig.
    </para>
    <programlisting role="php">
 <![CDATA[

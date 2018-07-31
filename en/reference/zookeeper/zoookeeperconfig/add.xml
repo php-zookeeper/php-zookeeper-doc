@@ -61,7 +61,7 @@
   <example xml:id="zookeeperconfig.add.example.basic">
    <title><methodname>ZookeeperConfig::add</methodname> example</title>
    <para>
-     Save value to node.
+     Add members.
    </para>
    <programlisting role="php">
 <![CDATA[

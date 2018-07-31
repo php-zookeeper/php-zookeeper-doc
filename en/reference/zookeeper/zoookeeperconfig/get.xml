@@ -58,7 +58,7 @@
   <example xml:id="zookeeperconfig.get.example.basic">
    <title><methodname>ZookeeperConfig::get</methodname> example</title>
    <para>
-     Get value from node.
+     Get configuration.
    </para>
    <programlisting role="php">
 <![CDATA[
