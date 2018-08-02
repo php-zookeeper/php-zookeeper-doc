@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 342988 $ -->
+<!-- $Revision: 344522 $ -->
 
 <refentry xml:id="zookeeper.getchildren" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Zookeeper::getChildren</refname>
-  <refpurpose>Lists the children of a node synchronously.</refpurpose>
+  <refpurpose>Lists the children of a node synchronously</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -13,7 +13,7 @@
    <modifier>public</modifier>
    <type>array</type><methodname>Zookeeper::getChildren</methodname>
    <methodparam><type>string</type><parameter>path</parameter></methodparam>
-   <methodparam choice="opt"><type>callable</type><parameter>watcher_cb</parameter><initializer>null</initializer></methodparam>
+   <methodparam choice="opt"><type>callable</type><parameter>watcher_cb</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
  </refsect1>
 

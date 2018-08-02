@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 342988 $ -->
+<!-- $Revision: 345417 $ -->
 
 <refentry xml:id="zookeeperconfig.get" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ZookeeperConfig::get</refname>
-  <refpurpose>Gets the last committed configuration of the ZooKeeper cluster as it is known to the server to which the client is connected, synchronously.</refpurpose>
+  <refpurpose>Gets the last committed configuration of the ZooKeeper cluster as it is known to the server to which the client is connected, synchronously</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -12,8 +12,8 @@
   <methodsynopsis role="oop">
    <modifier>public</modifier>
    <type>string</type><methodname>ZookeeperConfig::get</methodname>
-   <methodparam choice="opt"><type>callable</type><parameter>watcher_cb</parameter><initializer>null</initializer></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter role="reference">stat</parameter><initializer>null</initializer></methodparam>
+   <methodparam choice="opt"><type>callable</type><parameter>watcher_cb</parameter><initializer>&null;</initializer></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter role="reference">stat</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
  </refsect1>
 

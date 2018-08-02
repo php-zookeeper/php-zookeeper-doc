@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 342988 $ -->
+<!-- $Revision: 343888 $ -->
 
 <refentry xml:id="zookeeper.delete" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Zookeeper::delete</refname>
-  <refpurpose>Delete a node in zookeeper synchronously.</refpurpose>
+  <refpurpose>Delete a node in zookeeper synchronously</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">

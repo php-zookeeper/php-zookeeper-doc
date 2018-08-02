@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 342988 $ -->
+<!-- $Revision: 343899 $ -->
 
 <refentry xml:id="zookeeper.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Zookeeper::__construct</refname>
-  <refpurpose>Create a handle to used communicate with zookeeper.</refpurpose>
+  <refpurpose>Create a handle to used communicate with zookeeper</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -13,7 +13,7 @@
    <modifier>public</modifier>
    <methodname>Zookeeper::__construct</methodname>
    <methodparam choice="opt"><type>string</type><parameter>host</parameter><initializer>''</initializer></methodparam>
-   <methodparam choice="opt"><type>callable</type><parameter>watcher_cb</parameter><initializer>null</initializer></methodparam>
+   <methodparam choice="opt"><type>callable</type><parameter>watcher_cb</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>recv_timeout</parameter><initializer>10000</initializer></methodparam>
   </constructorsynopsis>
   <para>

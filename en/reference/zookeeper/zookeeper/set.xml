@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 342988 $ -->
+<!-- $Revision: 343899 $ -->
 
 <refentry xml:id="zookeeper.set" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Zookeeper::set</refname>
-  <refpurpose>Sets the data associated with a node.</refpurpose>
+  <refpurpose>Sets the data associated with a node</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -15,7 +15,7 @@
    <methodparam><type>string</type><parameter>path</parameter></methodparam>
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>version</parameter><initializer>-1</initializer></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter role="reference">stat</parameter><initializer>null</initializer></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter role="reference">stat</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
  </refsect1>
 

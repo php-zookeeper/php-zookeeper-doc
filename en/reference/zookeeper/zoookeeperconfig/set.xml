@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 342988 $ -->
+<!-- $Revision: 345417 $ -->
 
 <refentry xml:id="zookeeperconfig.set" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ZookeeperConfig::set</refname>
-  <refpurpose>Change ZK cluster ensemble membership and roles of ensemble peers.</refpurpose>
+  <refpurpose>Change ZK cluster ensemble membership and roles of ensemble peers</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -14,7 +14,7 @@
    <type>void</type><methodname>ZookeeperConfig::set</methodname>
    <methodparam><type>string</type><parameter>members</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>version</parameter><initializer>-1</initializer></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter role="reference">stat</parameter><initializer>null</initializer></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter role="reference">stat</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
  </refsect1>
 
