@@ -9,7 +9,8 @@ else
     svn update ${PHPDOC} || exit 1
 fi
 
-cp -r en/ ${PHPDOC} || exit 1
+echo "Copying git repo. files to phpdoc svn repo. ..."
+cp -r en ${PHPDOC}/ || exit 1
 #cp -r zh/ ${PHPDOC} || exit 1
 
 cd ${PHPDOC}
